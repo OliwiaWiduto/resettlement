@@ -1,0 +1,60 @@
+body {
+	background-color: #ff4d4d;
+	font-family: 'Tomorrow', sans-serif;
+	color: black;
+}
+
+h1 {
+	font-size: 10rem;
+    font-weight: 800;
+}
+
+h2{
+	font-size: 5rem;
+	font-weight: 800;
+}
+
+p {
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.titlewrap {
+	overflow: hidden;
+}
+
+.title {
+	white-space: nowrap;
+	 position: relative;
+ -webkit-animation-name: title;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 140s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+  animation-name: title;
+  animation-duration: 140s;  
+  transition-timing-function: 0;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes title {
+  from {right: -500px;}
+  to {right: 0px;}
+}
+
+@keyframes title {
+  from {right: 3000px;}
+  to {right: 0px;}
+}
+
+.picwrap {
+  z-index: -1;
+}
+
+.responsiveimg {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.highlight {
+	background-color: #ff4d4d;
+}

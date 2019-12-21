@@ -15,6 +15,7 @@ h2{
 }
 
 p {
+  padding: auto 2rem;
 	font-size: 1rem;
 	font-family: 'Open Sans', sans-serif;
 }

@@ -66,3 +66,11 @@ p {
   height: 130vh;
   background-position: right;
 }
+
+.trees {
+  background-image: url(images/illus/trees.svg);
+  background-repeat: no-repeat;
+  min-height: 400px;
+  height: 70vh;
+  background-position: left;
+}

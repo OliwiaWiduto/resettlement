@@ -61,7 +61,7 @@ p {
 }
 
 .welcome {
-  background-image: url(images/illus/train2.svg);
+  background-image: url(../images/illus/train2.svg);
   background-repeat: no-repeat;
   min-height: 600px;
   height: 130vh;
@@ -69,9 +69,19 @@ p {
 }
 
 .trees {
-  background-image: url(images/illus/trees.svg);
+  background-image: url(../images/illus/trees.svg);
   background-repeat: no-repeat;
   min-height: 400px;
   height: 70vh;
   background-position: left;
 }
+
+
+
+
+/*scrollmagic*/
+.spacer.s2 {
+    min-height: 200px;
+  }
+.spacer.s0 {
+    min-height: 1px;

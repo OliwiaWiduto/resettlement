@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<title>Resettlement</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i,800,800i|Tomorrow:400,800,900&display=swap" rel="stylesheet">
+	<title>oliwia attempts scroll magic</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/scroll.css" type="text/css">
+	<script type="text/javascript" src="js/assets/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/assets/js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="js/assets/js/examples.js"></script>
+
+	<!-- Change Us-->
+	<script type="text/javascript" src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+	<!-- Change Us-->
+
+
+
+</head>
+<body>
+			
+				<section id="welcome">
+
+					<div class="welcome">
+						<div class="titlewrap col-12 col-md-8">
+							<div class="title mt-0 mt-md-5">
+								<h1 class="my-0">
+									population transfers . population transfers . population transfers . population transfers .
+								</h1>
+							</div>
+						</div>
+
+						<h4 class="mt-3 col-12 mx-auto">
+							Uncover the story of post WW2 <b>population transfers</b>
+						</h4>
+
+					<script>
+						// init controller
+						var controller = new ScrollMagic.Controller();
+					</script>
+
+<section class="demo">
+					<div id="trigger1"></div>
+					<div id="pin1">
+						<div class="col-10 col-md-8 mx-auto">
+							<h2>context</h2>
+							<p>
+								<span class="highlight">
+									The year is 1944. After 3 months of combat in a typically exhausting European summer, The Battle of Normandy (June 1944 - August 1944) results in liberation of Western Europe from the control of Nazi Germany.<br></br>
+									Some 2500km from Normandy, the victory was enough to bring relief to the forefront of most USSR citizens’ minds. However, having lost 26 million to WW2 ensured confusion and skepticism echoed through countries absorbed by the Soviet Union.<br></br>
+									Talks around land reassignment begin right away.
+								</span> 
+							</p>
+						</div>
+					</div>
+					
+					<script>
+						$(function () { // wait for document ready
+							// build scene
+							var scene = new ScrollMagic.Scene({triggerElement: "#trigger1", duration: 500})
+											.setPin("#pin1")
+											.addIndicators({name: "1 (duration: 300)"}) // add indicators (requires plugin)
+											.addTo(controller);
+						});
+					</script>
+				</section>
+					
+				</section>
+
+
+
+				
+
+
+
+				<section class="demo">
+					
+					<div id="trigger2" ></div>
+					<div id="pin2" class="box2 blue">
+						<p>Take me with you!</p>
+						
+					</div>
+					<div class="spacer s2"></div>
+					<script>
+						$(function () { // wait for document ready
+							// build scene
+							var scene = new ScrollMagic.Scene({triggerElement: "#pin2"})
+											.setPin("#pin2")
+											.addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
+											.addTo(controller);
+						});
+					</script>
+				</section>	
+
+
+
+				<div class="spacer s_viewport"></div>
+			
+	<script type="text/javascript" src="../../assets/js/tracking.js"></script>
+</body>
+</html>
